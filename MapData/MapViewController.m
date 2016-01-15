@@ -51,7 +51,7 @@
     // 位置情報取得開始
     [self.locationManager startUpdatingLocation];
     
-    //地図を航空写真にする
+    // 地図を航空写真にする
     self.mapView.mapType = MKMapTypeSatelliteFlyover;
     
     // 地図の機能を有効化
